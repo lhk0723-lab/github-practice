@@ -7,6 +7,11 @@ def add(a, b):
 def subtract(a, b):
     """두 수를 뺀다."""
     return a - b
+
+#calculator.py (추가)
+def multiply(a, b):
+    """두 수를 곱한다."""
+    return a * b
  
  
 if __name__ == "__main__":
