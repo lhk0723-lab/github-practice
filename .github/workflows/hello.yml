@@ -1,4 +1,3 @@
-.github/workflows/hello.yml
 name: Hello World
  
 # 언제 실행할지: main에 push될 때 + 수동 실행 버튼
