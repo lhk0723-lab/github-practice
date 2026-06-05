@@ -1,0 +1,15 @@
+name: Python Tests
+ 
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:                 # PR이 생성/갱신될 때도 실행
+    branches: [ "main" ]
+ 
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      # 1) 저장소 코드를 가상머신으로 가져오기
+      - name: Check out repository
+        uses: actions/checkout@v4
